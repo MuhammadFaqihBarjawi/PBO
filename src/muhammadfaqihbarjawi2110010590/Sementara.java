@@ -8,27 +8,28 @@ package muhammadfaqihbarjawi2110010590;
  *
  * @author faqih
  */
-public class Jabatan {
-    private String kode, nama;
-    private int gaji;
-    private int tunjangan;
+public class Sementara {
+    private String nama, kode;
+    private int jumlah;
     
-public Jabatan () {}
+    public Sementara () {}
 
-public void setKD_Pegawai(String pegawai){
+public void setKD_Potongan(String kode){
         this.kode=kode;
     }
     
-    public String getKD_Pegawai(){
+    public String getKD_Potongan(){
         return this.kode;
     }
-    public void setNama_Pegawai(String nama){
-        this.nama=nama;
-    }
     
-    public String getNama_Pegawai(){
+ public void setNama_Potongan(String nama) {
+        this.nama=nama;
+ }
+ 
+    public String getNama_Potongan(){
         return this.nama;
     }
-    
+         
     
 }
+

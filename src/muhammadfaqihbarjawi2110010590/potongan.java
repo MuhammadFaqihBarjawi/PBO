@@ -8,22 +8,24 @@ package muhammadfaqihbarjawi2110010590;
  *
  * @author faqih
  */
-public class Golongan {
-    private String kode;
-    private int tun;
-    private int tunja;
-    private int makan;
-    private int lembur;
-    private int askes;
+public class potongan {
+    private String kode, nama;
     
-public Golongan () {}
+public potongan () {}
 
-public void setKD_Golongan(String golongan){
+public void setKD_Potongan(String kode){
         this.kode=kode;
     }
     
-    public String getKD_Golongan(){
+    public String getKD_Potongan(){
         return this.kode;
+    }
+    public void setNama_Pot(String nama){
+        this.nama=nama;
+    }
+    
+    public String getNama_Pot(){
+        return this.nama;
     }
     
 }
