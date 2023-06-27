@@ -9,14 +9,7 @@ package muhammadfaqihbarjawi2110010590;
  * @author faqih
  */
 public class Gaji {
-    private String id, kode,  tgl;
-    private int slip;
-    private int gaji;
-    private int lembur;
-    private int anak;
-    private int hadir;
-    private int pendapatan;
-    private int potongan;
+    private String id, kode, tgl, noslip, gaji, anak, hadir;
     
 public Gaji () {}
 
@@ -43,4 +36,37 @@ public void setIdUser(String id){
     public String Tanggal(){
         return this.tgl;
     }
+    
+    public void setNo_Slip(String slip){
+        this.noslip=noslip;
+    }
+    
+    public String getNo_Slip(){
+        return this.noslip;
+    }
+    
+    public void setGaji_Bersih(String bersih){
+        this.gaji=gaji;
+    }
+    
+    public String getGaji_Bersih(){
+        return this.gaji;
+    }
+    
+    public void setJumlah_Anak(String jumlah){
+        this.anak=anak;
+    }
+    
+    public String getJumlah_Anak(){
+        return this.anak;
+    }
+    
+    public void setJumlah_Hadir(String jumla){
+        this.hadir=hadir;
+    }
+    
+    public String getJumlah_Hadir(){
+        return this.hadir;
+    }
+    
 }

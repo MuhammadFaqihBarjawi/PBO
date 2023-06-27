@@ -9,12 +9,7 @@ package muhammadfaqihbarjawi2110010590;
  * @author faqih
  */
 public class Golongan {
-    private String kode;
-    private int tun;
-    private int tunja;
-    private int makan;
-    private int lembur;
-    private int askes;
+    private String kode, tun, tunj, makan;
     
 public Golongan () {}
 
@@ -26,4 +21,27 @@ public void setKD_Golongan(String golongan){
         return this.kode;
     }
     
+public void setTunjangan_Suami_Istri(String tun){
+        this.tun=tun;
+    }
+    
+    public String getTunjangan_Suami_Istri(){
+        return this.tun;
+    }
+    
+public void setTunjangan_Anak(String tunj){
+        this.tunj=tunj;
+    }
+    
+    public String getTunjangan_Anak(){
+        return this.tunj;
+    }
+    
+public void setUang_Makan(String makan){
+        this.makan=makan;
+    }
+    
+    public String getUang_Makan(){
+        return this.makan;
+    }
 }
